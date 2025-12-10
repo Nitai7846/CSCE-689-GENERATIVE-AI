@@ -9,6 +9,8 @@ Project Resources:
 2. [Project Milestone Report 1](https://drive.google.com/file/d/1rjbZBgzG0scCAi6dy1APfUZeEk6K-yhr/view?usp=sharing)
 3. [Project Milestone Report 2](https://drive.google.com/file/d/1zHQ9h1ObD8KuTUg-_7qYw3I94qLA8tsg/view?usp=sharing)
 4. [Final Project Report](https://drive.google.com/file/d/1HRVdIqcKGyETLwThAXpRSoWCS-0-rOvF/view?usp=sharing)
+5. [Models](https://drive.google.com/drive/folders/1pMv__d-SF7U-KyQZ_3TSHyttXOFzManN?usp=sharing)
+6. [Dataset for inference](https://drive.google.com/drive/folders/1JorH0UpoWhnsMXzaXI1MBH1M8ZyDWx-w?usp=sharing)
 
 To run the inference, run the file inference_{model name}_model.py. This file requires, the embeddings of the input image, original .ply for loss computation and the required model.
 
