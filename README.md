@@ -12,5 +12,19 @@ Project Resources:
 5. [Models](https://drive.google.com/drive/folders/1pMv__d-SF7U-KyQZ_3TSHyttXOFzManN?usp=sharing)
 6. [Dataset for inference](https://drive.google.com/drive/folders/1JorH0UpoWhnsMXzaXI1MBH1M8ZyDWx-w?usp=sharing)
 
-To run the inference, run the file inference_{model name}_model.py. This file requires, the embeddings of the input image, original .ply for loss computation and the required model.
+## Running Inference
+
+Each model has a corresponding inference script: inference_{model_name}_model.py
+
+### Input Requirements
+Each inference script expects:
+
+1. **Embeddings of the input image**  
+   Precomputed vision encoder embeddings included in the dataset
+
+2. **Original `.ply` LiDAR file**  
+   Used for loss and metric computation 
+
+3. **Model checkpoint**  
+   Download from the “Models” Google Drive folder
 
